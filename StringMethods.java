@@ -7,7 +7,7 @@ public class StringMethods {
         String name = sc.nextLine();
         System.out.println(name);
         int l = name.length();
-        System.out.println("The length of the string is: " + l);
+        System.out.println("The length of the sstring is: " + l);
         sc.close();
     }
 }
