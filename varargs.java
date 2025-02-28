@@ -1,7 +1,7 @@
 public class varargs {
-    static int sum(int... arr) {
+    static int sum(int... numbers) {
         int result = 0;
-        for (int a : arr) {
+        for (int a : numbers) {
             result += a;
         }
         return result;
