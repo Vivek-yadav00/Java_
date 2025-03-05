@@ -11,6 +11,7 @@ class Child extends Parent {
     public void show() {
         System.out.println("Child class show method");
     }
+    
     public void display() {
         System.out.println("Child class display method");
     }
