@@ -7,6 +7,9 @@ class MyEmp {
     MyEmp() {
         System.out.println("Default Constructor called");
     }
+    public void show() {
+        System.out.println();
+    }
 
     MyEmp(int id, String name) {
         this.id = id;
@@ -38,6 +41,7 @@ public class Constructor {
         int id = sc.nextInt();
         String name = sc.nextLine();
         MyEmp emp1 = new MyEmp();
+        emp1.show();
         MyEmp emp2 = new MyEmp(id, name);
         emp2.setid(id);
         emp2.setname(name);
