@@ -13,7 +13,7 @@ public class Hashmaps {
             String key = sc.nextLine();
             System.out.println("Enter value " + (i + 1) + ": ");
             int value = sc.nextInt();
-            sc.nextLine(); // Consume newline
+            sc.nextLine(); 
             map.put(key, value);
         }
 
